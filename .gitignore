@@ -1,6 +1,7 @@
 # Sistema operacional
 Thumbs.db
 Desktop.ini
+desktop.ini
 $RECYCLE.BIN/
 
 # Estado local de editores
@@ -14,6 +15,13 @@ $RECYCLE.BIN/
 *.bak
 *.swp
 ~$*
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Atalhos e metadados do Google Drive
+*.gdoc
+*.gsheet
+*.gslides
 
 # Saídas geradas
 dist/

@@ -167,3 +167,25 @@ Mudanças pequenas e puramente mecânicas podem ser agrupadas em um único regis
   Desinstalar GitHub Desktop ou Google Drive Desktop pelo Winget, Configurações do Windows ou painel de aplicativos. Para reverter apenas este registro, desfazer as linhas adicionadas em `MEMORIA_CENTRAL.md` e esta entrada do log.
 - Observações para o próximo agente:
   O GitHub Desktop está disponível para abrir o repositório local `C:\Users\odair\Desktop\LADO HUMANAS`. O Google Drive Desktop está instalado, mas nenhuma pasta de sincronização foi configurada por este registro.
+
+## 2026-05-20 09:22 -03:00 — Ajuste de ignorados do Google Drive
+
+- Agente: Codex.
+- Tipo: organização, Git/GitHub e decisão operacional.
+- Arquivos afetados:
+  - `.gitignore`
+  - `LOG_DE_EVOLUCAO.md`
+- Resumo:
+  O `.gitignore` foi ajustado para ignorar pastas temporárias do Google Drive, atalhos `.gdoc`, `.gsheet` e `.gslides`, além de `desktop.ini` em minúsculas.
+- Motivo:
+  Evitar que metadados locais, atalhos de nuvem e arquivos temporários entrem no histórico Git como se fossem conteúdo criativo do projeto.
+- Impacto editorial:
+  A organização do acervo fica mais limpa: o Git deve guardar textos, planos, roteiros, letras e notas reais, não ponteiros locais do Google Drive.
+- Git/GitHub:
+  Branch: `main`.
+  Commit: `ainda não commitado`.
+  Pull request: `não aplicável`.
+- Como reverter:
+  Remover as regras adicionadas ao `.gitignore` e esta entrada do log, caso o projeto decida versionar explicitamente atalhos do Google Drive.
+- Observações para o próximo agente:
+  A pasta `LIVROS/` contém no momento apenas um atalho `.gdoc`, não o conteúdo textual da obra. Antes de versionar material de livros, prefira exportar ou criar arquivos `.md` com conteúdo real.
