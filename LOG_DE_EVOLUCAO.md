@@ -1,0 +1,96 @@
+# Log de Evolução do Projeto Lado Humanas
+
+Este arquivo registra mudanças relevantes feitas no projeto para que qualquer pessoa, Codex ou Claude consiga entender o que foi alterado, quando, por quem, por qual motivo e como reverter se necessário.
+
+Ele não substitui o Git. Ele complementa o histórico técnico com contexto editorial, criativo e estratégico.
+
+## Como usar
+
+Crie um novo registro sempre que houver mudança relevante, especialmente quando envolver:
+
+- criação, revisão ou reorganização de arquivos;
+- alteração de tom, estrutura, conceito, título, personagem, narrativa ou direção estética;
+- criação de versões alternativas;
+- decisões editoriais importantes;
+- commits, branches, tags ou publicações no GitHub;
+- reversões, restaurações ou correções de mudanças anteriores.
+
+Mudanças pequenas e puramente mecânicas podem ser agrupadas em um único registro.
+
+## Modelo de registro
+
+```md
+## 2026-05-20 08:19 -03:00 — Título curto da mudança
+
+- Agente: Codex, Claude ou humano.
+- Tipo: criação, revisão, organização, versão, correção, reversão, Git/GitHub ou decisão editorial.
+- Arquivos afetados:
+  - `caminho/do/arquivo.md`
+- Resumo:
+  Explique em poucas linhas o que mudou.
+- Motivo:
+  Explique por que a mudança foi feita.
+- Impacto editorial:
+  Indique efeito em tom, estrutura, leitura, continuidade, autoria ou organização.
+- Git/GitHub:
+  Branch: `nome-da-branch` ou `não aplicável`.
+  Commit: `hash` ou `ainda não commitado`.
+  Pull request: `link` ou `não aplicável`.
+- Como reverter:
+  Explique o caminho de reversão. Exemplo: restaurar versão anterior, desfazer commit, recuperar arquivo alternativo ou consultar o diff.
+- Observações para o próximo agente:
+  Diga o que outra IA precisa saber antes de continuar.
+```
+
+## Registros
+
+## 2026-05-20 08:19 -03:00 — Criação do sistema de instruções e log
+
+- Agente: Codex.
+- Tipo: criação, organização e decisão editorial.
+- Arquivos afetados:
+  - `INSTRUCOES_LADO_HUMANAS.md`
+  - `AGENTS.md`
+  - `CLAUDE.md`
+  - `LOG_DE_EVOLUCAO.md`
+- Resumo:
+  Foram criadas instruções comuns para o projeto Lado Humanas, instruções específicas para Codex e Claude, e este log de evolução para registrar mudanças relevantes.
+- Motivo:
+  Estabelecer uma forma coerente de trabalho entre agentes diferentes, preservando autoria, evitando sobreposição de conteúdo e facilitando reversões futuras.
+- Impacto editorial:
+  O projeto passou a ter uma constituição editorial comum e um mecanismo de memória operacional para acompanhar decisões, mudanças e versões.
+- Git/GitHub:
+  Branch: `não aplicável`.
+  Commit: `ainda não commitado`.
+  Pull request: `não aplicável`.
+  Observação: a pasta ainda não é um repositório Git no momento deste registro.
+- Como reverter:
+  Remover os arquivos criados neste registro ou restaurar versões anteriores caso o projeto já tenha sido colocado sob Git posteriormente.
+- Observações para o próximo agente:
+  Antes de criar ou alterar conteúdo relevante, leia `INSTRUCOES_LADO_HUMANAS.md` e registre a mudança neste arquivo. Se o Git for inicializado depois, acrescente branch, hash de commit e links de pull request quando existirem.
+
+## 2026-05-20 08:23 -03:00 — Criação da memória central
+
+- Agente: Codex.
+- Tipo: criação, organização e decisão operacional.
+- Arquivos afetados:
+  - `MEMORIA_CENTRAL.md`
+  - `INSTRUCOES_LADO_HUMANAS.md`
+  - `AGENTS.md`
+  - `CLAUDE.md`
+  - `LOG_DE_EVOLUCAO.md`
+- Resumo:
+  Foi criado um arquivo centralizado para memórias duradouras do projeto, separando contexto estável de histórico de mudanças. As instruções de Codex e Claude foram ajustadas para consultar e atualizar essa memória quando necessário.
+- Motivo:
+  Permitir que agentes diferentes compreendam preferências, decisões canônicas, perguntas em aberto e contexto estrutural sem depender apenas da conversa atual.
+- Impacto editorial:
+  O projeto ganhou uma camada de continuidade mais estável, capaz de preservar intenção, voz e decisões de longo prazo entre sessões e entre IAs.
+- Git/GitHub:
+  Branch: `não aplicável`.
+  Commit: `ainda não commitado`.
+  Pull request: `não aplicável`.
+  Observação: a pasta ainda não é um repositório Git no momento deste registro.
+- Como reverter:
+  Remover `MEMORIA_CENTRAL.md` e desfazer as referências adicionadas em `INSTRUCOES_LADO_HUMANAS.md`, `AGENTS.md`, `CLAUDE.md` e `LOG_DE_EVOLUCAO.md`.
+- Observações para o próximo agente:
+  Use `MEMORIA_CENTRAL.md` para contexto duradouro e `LOG_DE_EVOLUCAO.md` para histórico de mudanças. Não duplique tudo nos dois arquivos; registre em cada um apenas o que pertence à sua função.

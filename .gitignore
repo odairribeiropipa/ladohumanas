@@ -1,0 +1,22 @@
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Estado local de editores
+.obsidian/
+.vscode/
+.idea/
+
+# Temporários e rascunhos técnicos
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Saídas geradas
+dist/
+build/
+out/
+exports/
