@@ -38,7 +38,7 @@ Não use este arquivo para:
   - `MUSICAS`
   - `ROTEIROS`
 - Agentes previstos: Codex e Claude, ambos operando a partir das mesmas instruções centrais.
-- Estado técnico registrado em 2026-05-20 08:23 -03:00: a pasta ainda não é um repositório Git.
+- Estado técnico registrado em 2026-05-20 08:34 -03:00: Git local inicializado na branch `main`, com commit inicial `7ad7ea7`.
 
 ## Preferências editoriais estáveis
 
@@ -64,6 +64,7 @@ Não use este arquivo para:
 - `MEMORIA_CENTRAL.md`: guarda contexto duradouro e decisões que orientam o futuro.
 - `LOG_DE_EVOLUCAO.md`: guarda o histórico narrado das mudanças, com data, motivo, impacto e reversão.
 - Git/GitHub: quando forem ativados, guardarão o histórico técnico por commits, branches, tags e pull requests.
+- Git local: ativo desde 2026-05-20, branch `main`, primeiro commit `7ad7ea7`.
 
 ## Projetos e áreas
 
@@ -94,7 +95,6 @@ Não use este arquivo para:
 
 ## Perguntas em aberto
 
-- O projeto será inicializado como repositório Git?
 - Haverá um repositório remoto no GitHub?
 - Os materiais terão uma organização por obra, por gênero, por data ou por estágio de desenvolvimento?
 - O projeto terá um padrão de versionamento por branches, tags ou pastas de versões?

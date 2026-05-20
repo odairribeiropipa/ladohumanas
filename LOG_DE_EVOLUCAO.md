@@ -94,3 +94,30 @@ Mudanças pequenas e puramente mecânicas podem ser agrupadas em um único regis
   Remover `MEMORIA_CENTRAL.md` e desfazer as referências adicionadas em `INSTRUCOES_LADO_HUMANAS.md`, `AGENTS.md`, `CLAUDE.md` e `LOG_DE_EVOLUCAO.md`.
 - Observações para o próximo agente:
   Use `MEMORIA_CENTRAL.md` para contexto duradouro e `LOG_DE_EVOLUCAO.md` para histórico de mudanças. Não duplique tudo nos dois arquivos; registre em cada um apenas o que pertence à sua função.
+
+## 2026-05-20 08:34 -03:00 — Inicialização do Git local
+
+- Agente: Codex.
+- Tipo: Git/GitHub, organização e versionamento.
+- Arquivos afetados:
+  - `.gitignore`
+  - `AGENTS.md`
+  - `CLAUDE.md`
+  - `INSTRUCOES_LADO_HUMANAS.md`
+  - `LOG_DE_EVOLUCAO.md`
+  - `MEMORIA_CENTRAL.md`
+- Resumo:
+  O projeto foi inicializado como repositório Git local na branch `main`. Foi criado um `.gitignore` para evitar versionamento de estado local de editores e arquivos temporários. Os arquivos-base de governança editorial foram incluídos no primeiro commit.
+- Motivo:
+  Permitir versionamento técnico, reversão de mudanças e leitura clara do histórico por humanos, Codex e Claude.
+- Impacto editorial:
+  O projeto passa a ter uma base reversível e auditável para mudanças futuras, reduzindo o risco de perda ou sobreposição de conteúdo.
+- Git/GitHub:
+  Branch: `main`.
+  Commit inicial: `7ad7ea7`.
+  Pull request: `não aplicável`.
+  Observação: repositório remoto no GitHub ainda não configurado neste registro.
+- Como reverter:
+  Para desfazer o commit inicial, usar Git para restaurar o estado anterior ou remover o repositório local se ainda não houver conteúdo novo dependente dele. Como o commit `7ad7ea7` contém a base de governança, qualquer reversão deve preservar cópias dos arquivos caso eles ainda sejam úteis.
+- Observações para o próximo agente:
+  A pasta `.obsidian` foi deixada fora do versionamento por ser estado local do editor. Se o usuário quiser versionar configurações do Obsidian, revise `.gitignore` antes de adicionar esses arquivos.
