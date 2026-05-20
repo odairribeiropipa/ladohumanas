@@ -39,6 +39,7 @@ Não use este arquivo para:
   - `ROTEIROS`
 - Agentes previstos: Codex e Claude, ambos operando a partir das mesmas instruções centrais.
 - Estado técnico registrado em 2026-05-20 08:34 -03:00: Git local inicializado na branch `main`, com commit inicial `7ad7ea7`.
+- Estado GitHub registrado em 2026-05-20 08:37 -03:00: GitHub App conectado à conta `arthurcmribeiro`; GitHub CLI (`gh`) instalado, mas ainda não autenticado no Windows; repositório remoto ainda não criado/configurado.
 
 ## Preferências editoriais estáveis
 
@@ -65,6 +66,7 @@ Não use este arquivo para:
 - `LOG_DE_EVOLUCAO.md`: guarda o histórico narrado das mudanças, com data, motivo, impacto e reversão.
 - Git/GitHub: quando forem ativados, guardarão o histórico técnico por commits, branches, tags e pull requests.
 - Git local: ativo desde 2026-05-20, branch `main`, primeiro commit `7ad7ea7`.
+- GitHub remoto: pendente de autenticação do `gh` ou criação manual de repositório remoto.
 
 ## Projetos e áreas
 

@@ -121,3 +121,26 @@ Mudanças pequenas e puramente mecânicas podem ser agrupadas em um único regis
   Para desfazer o commit inicial, usar Git para restaurar o estado anterior ou remover o repositório local se ainda não houver conteúdo novo dependente dele. Como o commit `7ad7ea7` contém a base de governança, qualquer reversão deve preservar cópias dos arquivos caso eles ainda sejam úteis.
 - Observações para o próximo agente:
   A pasta `.obsidian` foi deixada fora do versionamento por ser estado local do editor. Se o usuário quiser versionar configurações do Obsidian, revise `.gitignore` antes de adicionar esses arquivos.
+
+## 2026-05-20 08:37 -03:00 — Verificação do GitHub remoto
+
+- Agente: Codex.
+- Tipo: Git/GitHub e decisão operacional.
+- Arquivos afetados:
+  - `MEMORIA_CENTRAL.md`
+  - `LOG_DE_EVOLUCAO.md`
+- Resumo:
+  Foi verificado que o GitHub App está conectado à conta `arthurcmribeiro` e que o GitHub CLI (`gh`) está instalado no Windows. Porém, o `gh` ainda não está autenticado em nenhum host GitHub, e não foi encontrado repositório remoto instalado com nome relacionado a `lado-humanas`.
+- Motivo:
+  Preparar a publicação futura do repositório local no GitHub sem fingir que o remoto já existe.
+- Impacto editorial:
+  O projeto já possui versionamento local reversível, mas ainda não tem backup remoto nem histórico compartilhado no GitHub.
+- Git/GitHub:
+  Branch local: `main`.
+  Commit local atual antes deste registro: `d0c738e`.
+  Repositório remoto: `ainda não configurado`.
+  Pull request: `não aplicável`.
+- Como reverter:
+  Este registro pode ser revertido removendo as linhas adicionadas em `MEMORIA_CENTRAL.md` e esta entrada do log. Não há impacto sobre o conteúdo criativo.
+- Observações para o próximo agente:
+  Para publicar no GitHub, autenticar o GitHub CLI com `gh auth login` ou criar manualmente um repositório privado no GitHub e adicionar o remote `origin`.
