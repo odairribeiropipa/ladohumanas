@@ -183,7 +183,7 @@ Mudanças pequenas e puramente mecânicas podem ser agrupadas em um único regis
   A organização do acervo fica mais limpa: o Git deve guardar textos, planos, roteiros, letras e notas reais, não ponteiros locais do Google Drive.
 - Git/GitHub:
   Branch: `main`.
-  Commit: `ainda não commitado`.
+  Commit principal: `6f2f28a`.
   Pull request: `não aplicável`.
 - Como reverter:
   Remover as regras adicionadas ao `.gitignore` e esta entrada do log, caso o projeto decida versionar explicitamente atalhos do Google Drive.
