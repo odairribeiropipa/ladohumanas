@@ -144,3 +144,26 @@ Mudanças pequenas e puramente mecânicas podem ser agrupadas em um único regis
   Este registro pode ser revertido removendo as linhas adicionadas em `MEMORIA_CENTRAL.md` e esta entrada do log. Não há impacto sobre o conteúdo criativo.
 - Observações para o próximo agente:
   Para publicar no GitHub, autenticar o GitHub CLI com `gh auth login` ou criar manualmente um repositório privado no GitHub e adicionar o remote `origin`.
+
+## 2026-05-20 08:41 -03:00 — Instalação de apps de apoio
+
+- Agente: Codex.
+- Tipo: organização operacional.
+- Arquivos afetados:
+  - `MEMORIA_CENTRAL.md`
+  - `LOG_DE_EVOLUCAO.md`
+- Resumo:
+  O GitHub Desktop foi instalado pelo Winget na versão `3.5.8`. O Google Drive Desktop já estava instalado e foi confirmado na versão `125.0.0.0`.
+- Motivo:
+  Preparar o ambiente para versionamento visual com GitHub Desktop e eventual sincronização/backup com Google Drive.
+- Impacto editorial:
+  Não houve alteração no conteúdo criativo. A mudança melhora o ambiente de trabalho e facilita continuidade, backup e controle de versões.
+- Git/GitHub:
+  Branch local: `main`.
+  Commit local anterior a este registro: `318396d`.
+  Repositório remoto: `ainda não configurado`.
+  Pull request: `não aplicável`.
+- Como reverter:
+  Desinstalar GitHub Desktop ou Google Drive Desktop pelo Winget, Configurações do Windows ou painel de aplicativos. Para reverter apenas este registro, desfazer as linhas adicionadas em `MEMORIA_CENTRAL.md` e esta entrada do log.
+- Observações para o próximo agente:
+  O GitHub Desktop está disponível para abrir o repositório local `C:\Users\odair\Desktop\LADO HUMANAS`. O Google Drive Desktop está instalado, mas nenhuma pasta de sincronização foi configurada por este registro.

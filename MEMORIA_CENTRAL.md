@@ -40,6 +40,7 @@ Não use este arquivo para:
 - Agentes previstos: Codex e Claude, ambos operando a partir das mesmas instruções centrais.
 - Estado técnico registrado em 2026-05-20 08:34 -03:00: Git local inicializado na branch `main`, com commit inicial `7ad7ea7`.
 - Estado GitHub registrado em 2026-05-20 08:37 -03:00: GitHub App conectado à conta `arthurcmribeiro`; GitHub CLI (`gh`) instalado, mas ainda não autenticado no Windows; repositório remoto ainda não criado/configurado.
+- Estado de apps registrado em 2026-05-20 08:41 -03:00: GitHub Desktop `3.5.8` instalado; Google Drive Desktop `125.0.0.0` instalado.
 
 ## Preferências editoriais estáveis
 
@@ -67,6 +68,7 @@ Não use este arquivo para:
 - Git/GitHub: quando forem ativados, guardarão o histórico técnico por commits, branches, tags e pull requests.
 - Git local: ativo desde 2026-05-20, branch `main`, primeiro commit `7ad7ea7`.
 - GitHub remoto: pendente de autenticação do `gh` ou criação manual de repositório remoto.
+- Apps de apoio: GitHub Desktop e Google Drive Desktop disponíveis no Windows.
 
 ## Projetos e áreas
 
